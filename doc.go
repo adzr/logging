@@ -23,12 +23,12 @@ This library provides custom gokit logger implementation(s), currently it provid
 
 Usage
 
-	$ go get -u bitbucket.org/azaher/logging
+	$ go get -u github.com/adzr/logging
 
 Then, import the package:
 
   import (
-    "bitbucket.org/azaher/logging"
+    "github.com/adzr/logging"
   )
 
 Example

@@ -49,8 +49,8 @@ type Config struct {
 	Level string `json:"level"`
 }
 
-// DefaultLoggingConfiguration returns the default configurations for logging.
-func DefaultLoggingConfiguration() *Config {
+// Configuration returns a new instance of the default configurations for logging.
+func Configuration() *Config {
 	return &Config{
 		Format: "json",
 		Level:  "info",

@@ -160,8 +160,8 @@ func TestLogs(t *testing.T) {
 	}
 }
 
-func TestDefaultonfiguration(t *testing.T) {
-	c := DefaultLoggingConfiguration()
+func TestConfiguration(t *testing.T) {
+	c := Configuration()
 
 	if c.Format != "json" || c.Level != "info" {
 		t.Errorf("default configuration expected: ('json', 'info'), but found (%v', '%v')",
